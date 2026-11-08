@@ -1,0 +1,14 @@
+{
+  "model": "logreg",
+  "scoring": "roc_auc",
+  "n_combinations": 8,
+  "best_params": {
+    "model__C": 10.0,
+    "model__class_weight": null
+  },
+  "untuned_cv_roc_auc_mean": 0.7950730535134147,
+  "untuned_cv_roc_auc_std": 0.03423283037202363,
+  "tuned_cv_roc_auc_mean": 0.7952382080288983,
+  "gain": 0.00016515451548360094,
+  "gain_larger_than_fold_spread": false
+}

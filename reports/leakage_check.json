@@ -1,0 +1,4 @@
+{
+  "cv_roc_auc_without_customer_rating": 0.7952382080288983,
+  "cv_roc_auc_with_customer_rating": 0.9072241944934432
+}

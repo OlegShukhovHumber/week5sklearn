@@ -1,0 +1,40 @@
+{
+  "sklearn_version": "1.7.2",
+  "random_state": 42,
+  "model": "logreg",
+  "threshold": 0.3,
+  "numeric_features": [
+    "distance_km",
+    "items",
+    "hour",
+    "prep_minutes",
+    "courier_months"
+  ],
+  "categorical_features": [
+    "weather",
+    "day_type",
+    "vehicle"
+  ],
+  "best_params": {
+    "model__C": 10.0,
+    "model__class_weight": null
+  },
+  "test_metrics": {
+    "confusion_matrix": {
+      "tn": 578,
+      "fp": 55,
+      "fn": 64,
+      "tp": 53
+    },
+    "accuracy": 0.8413333333333334,
+    "precision": 0.49074074074074076,
+    "recall": 0.452991452991453,
+    "f1": 0.4711111111111111,
+    "roc_auc": 0.7962355355720285
+  },
+  "policy_costs": {
+    "flag_nobody": 1755,
+    "flag_everybody": 3000,
+    "model": 1392
+  }
+}
